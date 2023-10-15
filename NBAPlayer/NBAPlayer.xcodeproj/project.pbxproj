@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		D92528542ADC428600443BFF /* NBAPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92528532ADC428600443BFF /* NBAPlayerApp.swift */; };
-		D92528562ADC428600443BFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92528552ADC428600443BFF /* ContentView.swift */; };
+		D92528562ADC428600443BFF /* PlayerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92528552ADC428600443BFF /* PlayerDetail.swift */; };
 		D92528582ADC428800443BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92528572ADC428800443BFF /* Assets.xcassets */; };
 		D925285B2ADC428800443BFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D925285A2ADC428800443BFF /* Preview Assets.xcassets */; };
+		D92528622ADC450700443BFF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92528612ADC450700443BFF /* Player.swift */; };
+		D92528642ADC4EBA00443BFF /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92528632ADC4EBA00443BFF /* StatText.swift */; };
+		D92528662ADC524C00443BFF /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92528652ADC524C00443BFF /* PlayerRow.swift */; };
+		D92528682ADC570300443BFF /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92528672ADC570300443BFF /* PlayerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D92528502ADC428600443BFF /* NBAPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBAPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92528532ADC428600443BFF /* NBAPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAPlayerApp.swift; sourceTree = "<group>"; };
-		D92528552ADC428600443BFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D92528552ADC428600443BFF /* PlayerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetail.swift; sourceTree = "<group>"; };
 		D92528572ADC428800443BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D925285A2ADC428800443BFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D92528612ADC450700443BFF /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D92528632ADC4EBA00443BFF /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
+		D92528652ADC524C00443BFF /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		D92528672ADC570300443BFF /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				D92528532ADC428600443BFF /* NBAPlayerApp.swift */,
-				D92528552ADC428600443BFF /* ContentView.swift */,
+				D92528612ADC450700443BFF /* Player.swift */,
+				D92528552ADC428600443BFF /* PlayerDetail.swift */,
+				D92528632ADC4EBA00443BFF /* StatText.swift */,
+				D92528652ADC524C00443BFF /* PlayerRow.swift */,
+				D92528672ADC570300443BFF /* PlayerList.swift */,
 				D92528572ADC428800443BFF /* Assets.xcassets */,
 				D92528592ADC428800443BFF /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D92528562ADC428600443BFF /* ContentView.swift in Sources */,
+				D92528562ADC428600443BFF /* PlayerDetail.swift in Sources */,
+				D92528622ADC450700443BFF /* Player.swift in Sources */,
+				D92528642ADC4EBA00443BFF /* StatText.swift in Sources */,
+				D92528662ADC524C00443BFF /* PlayerRow.swift in Sources */,
+				D92528682ADC570300443BFF /* PlayerList.swift in Sources */,
 				D92528542ADC428600443BFF /* NBAPlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
