@@ -7,26 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9C159132ADDAE3000273A03 /* MovieTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C159122ADDAE3000273A03 /* MovieTrackerApp.swift */; };
-		D9C159152ADDAE3000273A03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C159142ADDAE3000273A03 /* ContentView.swift */; };
-		D9C159172ADDAE3100273A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C159162ADDAE3100273A03 /* Assets.xcassets */; };
-		D9C1591A2ADDAE3100273A03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C159192ADDAE3100273A03 /* Preview Assets.xcassets */; };
-		D9C1591C2ADDAE3100273A03 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1591B2ADDAE3100273A03 /* Persistence.swift */; };
-		D9C1591F2ADDAE3100273A03 /* MovieTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9C1591D2ADDAE3100273A03 /* MovieTracker.xcdatamodeld */; };
+		D9C159342AE1953000273A03 /* MovieTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C159332AE1953000273A03 /* MovieTrackerApp.swift */; };
+		D9C159382AE1953100273A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C159372AE1953100273A03 /* Assets.xcassets */; };
+		D9C1593B2AE1953100273A03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C1593A2AE1953100273A03 /* Preview Assets.xcassets */; };
+		D9C1593D2AE1953100273A03 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1593C2AE1953100273A03 /* Persistence.swift */; };
+		D9C159402AE1953100273A03 /* MovieTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9C1593E2AE1953100273A03 /* MovieTracker.xcdatamodeld */; };
+		D9C159472AE1958000273A03 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C159462AE1958000273A03 /* MovieDetail.swift */; };
+		D9C159492AE29BC400273A03 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C159482AE29BC400273A03 /* Movie.swift */; };
+		D9C1594B2AE29C8100273A03 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1594A2AE29C8100273A03 /* MovieList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D9C1590F2ADDAE3000273A03 /* MovieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9C159122ADDAE3000273A03 /* MovieTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrackerApp.swift; sourceTree = "<group>"; };
-		D9C159142ADDAE3000273A03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D9C159162ADDAE3100273A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D9C159192ADDAE3100273A03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D9C1591B2ADDAE3100273A03 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		D9C1591E2ADDAE3100273A03 /* MovieTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieTracker.xcdatamodel; sourceTree = "<group>"; };
+		D9C159302AE1953000273A03 /* MovieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C159332AE1953000273A03 /* MovieTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrackerApp.swift; sourceTree = "<group>"; };
+		D9C159372AE1953100273A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9C1593A2AE1953100273A03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9C1593C2AE1953100273A03 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D9C1593F2AE1953100273A03 /* MovieTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieTracker.xcdatamodel; sourceTree = "<group>"; };
+		D9C159462AE1958000273A03 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		D9C159482AE29BC400273A03 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D9C1594A2AE29C8100273A03 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D9C1590C2ADDAE3000273A03 /* Frameworks */ = {
+		D9C1592D2AE1953000273A03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +40,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D9C159062ADDAE3000273A03 = {
+		D9C159272AE1953000273A03 = {
 			isa = PBXGroup;
 			children = (
-				D9C159112ADDAE3000273A03 /* MovieTracker */,
-				D9C159102ADDAE3000273A03 /* Products */,
+				D9C159322AE1953000273A03 /* MovieTracker */,
+				D9C159312AE1953000273A03 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D9C159102ADDAE3000273A03 /* Products */ = {
+		D9C159312AE1953000273A03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9C1590F2ADDAE3000273A03 /* MovieTracker.app */,
+				D9C159302AE1953000273A03 /* MovieTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9C159112ADDAE3000273A03 /* MovieTracker */ = {
+		D9C159322AE1953000273A03 /* MovieTracker */ = {
 			isa = PBXGroup;
 			children = (
-				D9C159122ADDAE3000273A03 /* MovieTrackerApp.swift */,
-				D9C159142ADDAE3000273A03 /* ContentView.swift */,
-				D9C159162ADDAE3100273A03 /* Assets.xcassets */,
-				D9C1591B2ADDAE3100273A03 /* Persistence.swift */,
-				D9C1591D2ADDAE3100273A03 /* MovieTracker.xcdatamodeld */,
-				D9C159182ADDAE3100273A03 /* Preview Content */,
+				D9C159332AE1953000273A03 /* MovieTrackerApp.swift */,
+				D9C159462AE1958000273A03 /* MovieDetail.swift */,
+				D9C1594A2AE29C8100273A03 /* MovieList.swift */,
+				D9C159482AE29BC400273A03 /* Movie.swift */,
+				D9C159372AE1953100273A03 /* Assets.xcassets */,
+				D9C1593C2AE1953100273A03 /* Persistence.swift */,
+				D9C1593E2AE1953100273A03 /* MovieTracker.xcdatamodeld */,
+				D9C159392AE1953100273A03 /* Preview Content */,
 			);
 			path = MovieTracker;
 			sourceTree = "<group>";
 		};
-		D9C159182ADDAE3100273A03 /* Preview Content */ = {
+		D9C159392AE1953100273A03 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D9C159192ADDAE3100273A03 /* Preview Assets.xcassets */,
+				D9C1593A2AE1953100273A03 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,13 +82,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D9C1590E2ADDAE3000273A03 /* MovieTracker */ = {
+		D9C1592F2AE1953000273A03 /* MovieTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9C159222ADDAE3100273A03 /* Build configuration list for PBXNativeTarget "MovieTracker" */;
+			buildConfigurationList = D9C159432AE1953100273A03 /* Build configuration list for PBXNativeTarget "MovieTracker" */;
 			buildPhases = (
-				D9C1590B2ADDAE3000273A03 /* Sources */,
-				D9C1590C2ADDAE3000273A03 /* Frameworks */,
-				D9C1590D2ADDAE3000273A03 /* Resources */,
+				D9C1592C2AE1953000273A03 /* Sources */,
+				D9C1592D2AE1953000273A03 /* Frameworks */,
+				D9C1592E2AE1953000273A03 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -90,25 +96,25 @@
 			);
 			name = MovieTracker;
 			productName = MovieTracker;
-			productReference = D9C1590F2ADDAE3000273A03 /* MovieTracker.app */;
+			productReference = D9C159302AE1953000273A03 /* MovieTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D9C159072ADDAE3000273A03 /* Project object */ = {
+		D9C159282AE1953000273A03 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					D9C1590E2ADDAE3000273A03 = {
+					D9C1592F2AE1953000273A03 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = D9C1590A2ADDAE3000273A03 /* Build configuration list for PBXProject "MovieTracker" */;
+			buildConfigurationList = D9C1592B2AE1953000273A03 /* Build configuration list for PBXProject "MovieTracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +122,46 @@
 				en,
 				Base,
 			);
-			mainGroup = D9C159062ADDAE3000273A03;
-			productRefGroup = D9C159102ADDAE3000273A03 /* Products */;
+			mainGroup = D9C159272AE1953000273A03;
+			productRefGroup = D9C159312AE1953000273A03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9C1590E2ADDAE3000273A03 /* MovieTracker */,
+				D9C1592F2AE1953000273A03 /* MovieTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D9C1590D2ADDAE3000273A03 /* Resources */ = {
+		D9C1592E2AE1953000273A03 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C1591A2ADDAE3100273A03 /* Preview Assets.xcassets in Resources */,
-				D9C159172ADDAE3100273A03 /* Assets.xcassets in Resources */,
+				D9C1593B2AE1953100273A03 /* Preview Assets.xcassets in Resources */,
+				D9C159382AE1953100273A03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D9C1590B2ADDAE3000273A03 /* Sources */ = {
+		D9C1592C2AE1953000273A03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C1591C2ADDAE3100273A03 /* Persistence.swift in Sources */,
-				D9C1591F2ADDAE3100273A03 /* MovieTracker.xcdatamodeld in Sources */,
-				D9C159152ADDAE3000273A03 /* ContentView.swift in Sources */,
-				D9C159132ADDAE3000273A03 /* MovieTrackerApp.swift in Sources */,
+				D9C159472AE1958000273A03 /* MovieDetail.swift in Sources */,
+				D9C1593D2AE1953100273A03 /* Persistence.swift in Sources */,
+				D9C159492AE29BC400273A03 /* Movie.swift in Sources */,
+				D9C159402AE1953100273A03 /* MovieTracker.xcdatamodeld in Sources */,
+				D9C159342AE1953000273A03 /* MovieTrackerApp.swift in Sources */,
+				D9C1594B2AE29C8100273A03 /* MovieList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D9C159202ADDAE3100273A03 /* Debug */ = {
+		D9C159412AE1953100273A03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		D9C159212ADDAE3100273A03 /* Release */ = {
+		D9C159422AE1953100273A03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,7 +275,7 @@
 			};
 			name = Release;
 		};
-		D9C159232ADDAE3100273A03 /* Debug */ = {
+		D9C159442AE1953100273A03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -295,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		D9C159242ADDAE3100273A03 /* Release */ = {
+		D9C159452AE1953100273A03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -326,20 +334,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9C1590A2ADDAE3000273A03 /* Build configuration list for PBXProject "MovieTracker" */ = {
+		D9C1592B2AE1953000273A03 /* Build configuration list for PBXProject "MovieTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9C159202ADDAE3100273A03 /* Debug */,
-				D9C159212ADDAE3100273A03 /* Release */,
+				D9C159412AE1953100273A03 /* Debug */,
+				D9C159422AE1953100273A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9C159222ADDAE3100273A03 /* Build configuration list for PBXNativeTarget "MovieTracker" */ = {
+		D9C159432AE1953100273A03 /* Build configuration list for PBXNativeTarget "MovieTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9C159232ADDAE3100273A03 /* Debug */,
-				D9C159242ADDAE3100273A03 /* Release */,
+				D9C159442AE1953100273A03 /* Debug */,
+				D9C159452AE1953100273A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -347,17 +355,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D9C1591D2ADDAE3100273A03 /* MovieTracker.xcdatamodeld */ = {
+		D9C1593E2AE1953100273A03 /* MovieTracker.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D9C1591E2ADDAE3100273A03 /* MovieTracker.xcdatamodel */,
+				D9C1593F2AE1953100273A03 /* MovieTracker.xcdatamodel */,
 			);
-			currentVersion = D9C1591E2ADDAE3100273A03 /* MovieTracker.xcdatamodel */;
+			currentVersion = D9C1593F2AE1953100273A03 /* MovieTracker.xcdatamodel */;
 			path = MovieTracker.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = D9C159072ADDAE3000273A03 /* Project object */;
+	rootObject = D9C159282AE1953000273A03 /* Project object */;
 }

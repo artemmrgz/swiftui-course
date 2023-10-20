@@ -2,7 +2,7 @@
 //  MovieTrackerApp.swift
 //  MovieTracker
 //
-//  Created by Artem Marhaza on 16/10/2023.
+//  Created by Artem Marhaza on 19/10/2023.
 //
 
 import SwiftUI
@@ -13,8 +13,9 @@ struct MovieTrackerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            let movieStorage = MovieStorage()
+            MovieList()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext).environmentObject(movieStorage)
         }
     }
 }
